@@ -1,7 +1,7 @@
-# My Firefox Extension
+# Firefox DeepSeek extension
 
 ## Overview
-This is a simple Firefox extension that enhances your browsing experience. It includes a background script, content script, and a popup interface.
+Firefox extension that communicates with the DeepSeek API in order to prompt it with selected text.
 
 ## Files
 - **src/background.js**: Background script that manages events and state.
