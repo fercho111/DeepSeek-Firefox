@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "DeepSeek Context AI Sender",
+  "version": "1.0",
+  "description": "Send selected text to DeepSeek for AI assistance.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "storage",
+    "https://api.deepseek.com/",
+    "tabs",
+    "history",
+    "identity",
+    "notifications"
+  ],
+  "background": {
+    "scripts": ["src/background.js"],
+    "persistent": false
+  }
+}
